@@ -4,7 +4,7 @@ const app = express()
 const db=require('./db')
 app.use(express.json())
 app.use(cors({
-  origin:["https://mern-car-rental-app.vercel.app/"],
+  origin:["https://athif-rooms.vercel.app/"],
   methods:["GET","POST", "PUT", "DELETE"],
   credentials: true
 }))
