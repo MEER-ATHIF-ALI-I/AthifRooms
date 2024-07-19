@@ -1,7 +1,13 @@
 const express = require('express')
+const cors = require("cors");
 const app = express()
 const db=require('./db')
 app.use(express.json())
+app.use(cors({
+  origin:["https://mern-car-rental-app.vercel.app/"],
+  methods:["GET","POST", "PUT", "DELETE"],
+  credentials: true
+}))
 const path = require('path')
 const roomsRoutes = require('./routes/roomsRoute')
 const userRoute = require('./routes/userRoute')
