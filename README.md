@@ -1,6 +1,6 @@
 # AthifRooms
 
-- Hosted link can be found by [clickinghere](https://athifrooms.herokuapp.com/)
+- Hosted link can be found by [clickinghere](https://athif-rooms.vercel.app/)
 
 - It is built using MERN(MongoDB Express React Node) Stack integrated with 
   Stripe payment method
