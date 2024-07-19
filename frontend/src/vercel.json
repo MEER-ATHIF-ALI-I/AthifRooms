@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api/:match*",
-        "destination": "/api/:match*"
+        "destination": "https://athifrooms.onrender.com/api/:match*"
       },
       {
         "source": "/(.*)",
